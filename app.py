@@ -1,7 +1,6 @@
 from flask import Flask, request, jsonify
 import os
 import json
-import numpy as np
 from azure.storage.blob import BlobServiceClient
 from elasticsearch import Elasticsearch
 from openai import AzureOpenAI
