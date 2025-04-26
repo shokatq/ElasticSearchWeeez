@@ -7,7 +7,7 @@ from openai import AzureOpenAI
 import threading
 import re
 import uuid
-
+from datetime import datetime
 
 app = Flask(__name__)
 
@@ -782,8 +782,6 @@ def create_new_index():
 
 
 if __name__ == '__main__':
-    # Import datetime here to avoid circular imports
-    from datetime import datetime
 
     # Create ES index when starting the server
     create_es_index_if_not_exists()
