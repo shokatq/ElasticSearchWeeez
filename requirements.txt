@@ -1,0 +1,4 @@
+flask==3.0.3
+azure.storage.blob==12.23.1
+elasticsearch==8.17.2
+openai==1.65.4
